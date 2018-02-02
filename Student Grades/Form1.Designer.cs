@@ -38,7 +38,7 @@
             this.lblClass = new System.Windows.Forms.Label();
             this.lblMaths = new System.Windows.Forms.Label();
             this.lblEnglish = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblScience = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -51,28 +51,28 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(246, 148);
+            this.textBox2.Location = new System.Drawing.Point(246, 141);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 1;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(246, 199);
+            this.textBox3.Location = new System.Drawing.Point(246, 196);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 2;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(246, 257);
+            this.textBox4.Location = new System.Drawing.Point(246, 250);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 20);
             this.textBox4.TabIndex = 3;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(246, 314);
+            this.textBox5.Location = new System.Drawing.Point(246, 307);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 4;
@@ -89,7 +89,7 @@
             // lblStudentname
             // 
             this.lblStudentname.AutoSize = true;
-            this.lblStudentname.Location = new System.Drawing.Point(70, 148);
+            this.lblStudentname.Location = new System.Drawing.Point(70, 141);
             this.lblStudentname.Name = "lblStudentname";
             this.lblStudentname.Size = new System.Drawing.Size(75, 13);
             this.lblStudentname.TabIndex = 6;
@@ -98,7 +98,7 @@
             // lblClass
             // 
             this.lblClass.AutoSize = true;
-            this.lblClass.Location = new System.Drawing.Point(70, 199);
+            this.lblClass.Location = new System.Drawing.Point(70, 196);
             this.lblClass.Name = "lblClass";
             this.lblClass.Size = new System.Drawing.Size(32, 13);
             this.lblClass.TabIndex = 7;
@@ -107,7 +107,7 @@
             // lblMaths
             // 
             this.lblMaths.AutoSize = true;
-            this.lblMaths.Location = new System.Drawing.Point(73, 257);
+            this.lblMaths.Location = new System.Drawing.Point(73, 250);
             this.lblMaths.Name = "lblMaths";
             this.lblMaths.Size = new System.Drawing.Size(67, 13);
             this.lblMaths.TabIndex = 8;
@@ -116,24 +116,24 @@
             // lblEnglish
             // 
             this.lblEnglish.AutoSize = true;
-            this.lblEnglish.Location = new System.Drawing.Point(73, 314);
+            this.lblEnglish.Location = new System.Drawing.Point(73, 307);
             this.lblEnglish.Name = "lblEnglish";
             this.lblEnglish.Size = new System.Drawing.Size(44, 13);
             this.lblEnglish.TabIndex = 9;
             this.lblEnglish.Text = "English ";
             // 
-            // label1
+            // lblScience
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(73, 379);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "label1";
+            this.lblScience.AutoSize = true;
+            this.lblScience.Location = new System.Drawing.Point(73, 365);
+            this.lblScience.Name = "lblScience";
+            this.lblScience.Size = new System.Drawing.Size(46, 13);
+            this.lblScience.TabIndex = 10;
+            this.lblScience.Text = "Science";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(245, 379);
+            this.textBox6.Location = new System.Drawing.Point(246, 365);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 11;
@@ -144,7 +144,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(961, 758);
             this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblScience);
             this.Controls.Add(this.lblEnglish);
             this.Controls.Add(this.lblMaths);
             this.Controls.Add(this.lblClass);
@@ -174,7 +174,7 @@
         private System.Windows.Forms.Label lblClass;
         private System.Windows.Forms.Label lblMaths;
         private System.Windows.Forms.Label lblEnglish;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblScience;
         private System.Windows.Forms.TextBox textBox6;
     }
 }
